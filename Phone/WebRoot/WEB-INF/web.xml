@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <servlet-name>RegisterServerlet</servlet-name>
+    <servlet-class>Serverlet.RegisterServerlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Denglu</servlet-name>
+    <servlet-class>Serverlet.Denglu</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Message</servlet-name>
+    <servlet-class>Serverlet.Message</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>getallxinxi</servlet-name>
+    <servlet-class>Serverlet.getallxinxi</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Update</servlet-name>
+    <servlet-class>Serverlet.Update</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Deleta</servlet-name>
+  	<servlet-class>Serverlet.Deleta</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Shangpin</servlet-name>
+    <servlet-class>Serverlet.Shangpin</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Tiaozhauan</servlet-name>
+    <servlet-class>Serverlet.Tiaozhauan</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShangpinAdd</servlet-name>
+    <servlet-class>Serverlet.ShangpinAdd</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Shanchushangpin</servlet-name>
+    <servlet-class>Serverlet.Shanchushangpin</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>XiugaiShangpin</servlet-name>
+    <servlet-class>Serverlet.XiugaiShangpin</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Gouwuche</servlet-name>
+    <servlet-class>Serverlet.Gouwuche</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShouGWC</servlet-name>
+    <servlet-class>Serverlet.ShouGWC</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShanchuGWC</servlet-name>
+    <servlet-class>Serverlet.ShanchuGWC</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>sb</servlet-name>
+    <servlet-class>Serverlet.sb</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+  <filter>
+  	<filter-name>filter</filter-name>
+  	<filter-class>filter.filter</filter-class>
+  </filter>
+
+
+
+  <servlet-mapping>
+    <servlet-name>RegisterServerlet</servlet-name>
+    <url-pattern>/servlet/RegisterServerlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Denglu</servlet-name>
+    <url-pattern>/servlet/Denglu</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Message</servlet-name>
+    <url-pattern>/servlet/Message</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getallxinxi</servlet-name>
+    <url-pattern>/servlet/getallxinxi</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Update</servlet-name>
+    <url-pattern>/servlet/Update</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Deleta</servlet-name>
+  	<url-pattern>/servlet/Deleta</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Shangpin</servlet-name>
+    <url-pattern>/servlet/Shangpin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Tiaozhauan</servlet-name>
+    <url-pattern>/servlet/Tiaozhauan</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShangpinAdd</servlet-name>
+    <url-pattern>/servlet/ShangpinAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Shanchushangpin</servlet-name>
+    <url-pattern>/servlet/Shanchushangpin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>XiugaiShangpin</servlet-name>
+    <url-pattern>/servlet/XiugaiShangpin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Gouwuche</servlet-name>
+    <url-pattern>/servlet/Gouwuche</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShouGWC</servlet-name>
+    <url-pattern>/servlet/ShouGWC</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShanchuGWC</servlet-name>
+    <url-pattern>/servlet/ShanchuGWC</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>sb</servlet-name>
+    <url-pattern>/servlet/sb</url-pattern>
+  </servlet-mapping>
+	<filter-mapping>
+	<filter-name>filter</filter-name>
+	<url-pattern>/*</url-pattern>
+	</filter-mapping>
+</web-app>
